@@ -1,0 +1,54 @@
+@charset "UTF-8";
+body{
+	background-image: url("company.jpg");
+	background-size: cover;
+	color: white;
+}
+
+#navbar_container{
+	height: 40px;
+	width: 100vw;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	display: flex;
+	align-items: center;
+	background-color: rgba(0,0,0,0.6);
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	padding: 2px;
+}
+
+#a1{
+	margin-left: 20px;
+}
+
+#a2,#a3,#a4{
+	margin-left: 50px;
+}
+
+#welcome_container{
+	height:60px;
+	width: 99vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 150px;
+	background-color: rgba(0,0,0,0);
+}
+
+h1{
+	margin: 0px;
+	font-size: 50px;
+	background-color: rgba(0,0,0,0.6);
+}
+
+a:hover{
+	background-color: white;
+	color: black;
+	border-radius: 4px;
+}

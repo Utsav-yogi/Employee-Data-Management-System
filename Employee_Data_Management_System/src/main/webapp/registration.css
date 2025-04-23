@@ -1,0 +1,106 @@
+@charset "UTF-8";
+body{
+    background-image: url("laptop.jpg");
+    background-size: cover;
+    color: white;
+}
+
+form{
+    height: 1300px;
+    width: 700px;
+    background-color: rgba(0,0,0,0.6);
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.reginput{
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.6);
+    margin-left: 200px;
+}
+
+label{
+    margin-left: 210px;
+}
+
+#radio2,#radio3{
+    margin-left: 10px;
+}
+
+h2{
+    margin-left: 235px;
+}
+
+#reset,#submit{
+    padding-top: 15px;
+    padding-right: 45px;
+    padding-bottom: 15px;
+    padding-left: 45px;
+    background-color: rgba(0,0,0,0.6);
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+#reset{
+    margin-left: 200px;
+    padding-left: 51px;
+    padding-right: 51px;
+}
+
+#submit{
+    margin-left: 11px;
+}
+
+input,select{
+    color: white;
+    font-size: 16px;
+}
+
+select{
+	width: 298px;
+    padding-top: 20px;
+    padding-right: 68px;
+    padding-bottom: 20px;
+    padding-left: 68px;
+    margin-left: 200px;
+    background-color: rgba(0,0,0,0.6);
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+#regcontainer{
+    height: 165vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input:hover{
+	background-color: white;
+	color: black;
+}
+
+#reset:hover{
+	background-color: white;
+	color: black;
+}
+
+#submit:hover{
+	background-color: white;
+	color: black;
+}
+
+select:hover{
+	background-color: white;
+	color: black;
+}
+
+.radio:hover{
+	color: rgba(50,50, 255);
+}

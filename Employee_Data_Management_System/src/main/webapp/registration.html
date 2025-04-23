@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>registration</title>
+<link rel="stylesheet" href="registration.css">
+</head>
+<body>
+
+   <div id="regcontainer">
+      
+        <form action="regform" method="post">
+          
+            <h2>Registration form</h2><br><br>
+            <label for="fname">Enter first name</label><br>
+            <input type="text" name="firstname1" id="fname" class="reginput" placeholder="Enter First name" required><br><br>
+            
+            <label for="lname">Enter last name</label><br>
+            <input type="text" name="lastname1" id="lname" class="reginput" placeholder="Enter Last name" required><br><br>
+            
+            <label for="Email">Enter email</label><br>
+            <input type="email" name="email1" id="Email" class="reginput" placeholder="Enter email" required><br><br>
+            
+            <label for="address">Enter address</label><br>
+            <input type="text" name="address1" id="address" class="reginput" placeholder="Enter address" required><br><br>
+            
+            <label for="city">Enter city</label><br>
+            <input type="text" name="city1" id="city" class="reginput" placeholder="Enter city" required><br><br>
+            
+            <label for="state">Select state</label><br>
+            <select name="state1" id="state">
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chhattisghar">Chhattisghar</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujrat">Gujrat</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Karnatak">Karnatak</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Manipur">Manipur</option>
+            <option value="Meghalaya">Meghalaya</option>
+            <option value="Mizoram">Mizoram</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Sikkim">Sikkim</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="West Bengal">West Bengal</option>
+            </select><br><br>
+            
+            <label>Select Gender</label><br>
+            <label for="gender1" id="radio1" class="radio">Male</label>
+            <input type="radio" value="male" name="gender1" id="gender1" required>
+            <label for="gender2" id="radio2" class="radio">Female</label>
+            <input type="radio" value="female" name="gender1" id="gender2" required>
+            <label for="gender3" id="radio3" class="radio">other</label>
+            <input type="radio" value="other" name="gender1" id="gender3" required><br><br>
+            
+            <label for="username1">Set username</label><br>
+            <input type="text" name="username1" id="username1" class="reginput" placeholder="Set username" required><br>
+
+            <label for="username2">Re-enter username</label><br>
+            <input type="text" name="username2" id="username2" class="reginput" placeholder="Re-enter username" required><br><br>
+           
+            <label for="pass1">Set password</label><br>
+            <input type="password" name="password1" id="pass1" class="reginput" placeholder="Set 4-digit/character password" maxlength="4" required><br>
+
+            <label for="pass2">Re-enter password</label><br>
+            <input type="text" name="password2" id="pass2" class="reginput" placeholder="Re-enter password" maxlength="4" required><br><br>
+            
+            <input type="reset" value="reset" id="reset">
+            <input type="submit" value="submit" id="submit">
+          
+        </form>
+     
+    </div>
+
+</body>
+</html>

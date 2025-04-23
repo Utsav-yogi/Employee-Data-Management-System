@@ -1,0 +1,60 @@
+@charset "UTF-8";
+body{
+    background-image: url("laptop.jpg");
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+}
+
+#logincontainer{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 600px;
+    height: 500px;
+    background-color: rgba(0,0,0,0.6);
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+h2{
+    margin-left: 265px;
+    margin-top: 62px;
+}
+
+input,label{
+    margin-left: 150px;
+}
+
+input{
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+label{
+    margin-left: 170px;
+}
+
+#submit{
+    margin-left: 15px;
+    margin-top: 30px;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+input:hover{
+	background-color: white;
+	color: black;
+
+}
